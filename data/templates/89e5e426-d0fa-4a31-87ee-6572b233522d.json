@@ -1,0 +1,49 @@
+{
+  "id": "89e5e426-d0fa-4a31-87ee-6572b233522d",
+  "name": "Quarterly Report",
+  "description": "Extract key metrics from quarterly reports",
+  "fields": [
+    {
+      "name": "total_revenue",
+      "display_name": "Total Revenue",
+      "field_type": "metric",
+      "description": "Total revenue for Q3 2025",
+      "expected_format": "currency",
+      "table_hint": null
+    },
+    {
+      "name": "net_income",
+      "display_name": "Net Income",
+      "field_type": "metric",
+      "description": "Net income for Q3 2025",
+      "expected_format": "currency",
+      "table_hint": null
+    },
+    {
+      "name": "gross_margin",
+      "display_name": "Gross Margin",
+      "field_type": "metric",
+      "description": "Gross margin percentage",
+      "expected_format": "percentage",
+      "table_hint": null
+    },
+    {
+      "name": "total_assets",
+      "display_name": "Total Assets",
+      "field_type": "table_cell",
+      "description": "Total assets from Balance Sheet",
+      "expected_format": "currency",
+      "table_hint": "Balance Sheet"
+    },
+    {
+      "name": "outlook",
+      "display_name": "Forward Outlook",
+      "field_type": "summary",
+      "description": "Forward-looking guidance and expectations",
+      "expected_format": null,
+      "table_hint": null
+    }
+  ],
+  "created_at": "2026-01-27T15:55:49.636535Z",
+  "updated_at": "2026-01-27T16:04:10.813727Z"
+}

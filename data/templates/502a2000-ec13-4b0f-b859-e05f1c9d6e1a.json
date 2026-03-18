@@ -1,0 +1,136 @@
+{
+  "id": "502a2000-ec13-4b0f-b859-e05f1c9d6e1a",
+  "name": "PE Fund Quarterly Statement",
+  "description": "Extracts fund summary and portfolio investment details from Private Equity quarterly statements for Investran upload",
+  "fields": [
+    {
+      "name": "fund_name",
+      "display_name": "Fund Name",
+      "field_type": "metric",
+      "description": "The full legal name of the fund (e.g., Horizon Growth Partners Fund IV, L.P.)",
+      "expected_format": null,
+      "table_hint": null
+    },
+    {
+      "name": "fund_id",
+      "display_name": "Fund ID",
+      "field_type": "metric",
+      "description": "The fund identifier code (e.g., HGP-IV, ACP-VII)",
+      "expected_format": null,
+      "table_hint": null
+    },
+    {
+      "name": "reporting_period",
+      "display_name": "Reporting Period",
+      "field_type": "metric",
+      "description": "The quarter and year being reported (e.g., Q3 2024)",
+      "expected_format": null,
+      "table_hint": null
+    },
+    {
+      "name": "period_end_date",
+      "display_name": "Period End Date",
+      "field_type": "metric",
+      "description": "The specific end date of the reporting period (e.g., September 30, 2024)",
+      "expected_format": null,
+      "table_hint": null
+    },
+    {
+      "name": "total_commitments",
+      "display_name": "Total Commitments",
+      "field_type": "metric",
+      "description": "Total capital commitments to the fund in dollars",
+      "expected_format": "currency",
+      "table_hint": null
+    },
+    {
+      "name": "capital_called",
+      "display_name": "Capital Called",
+      "field_type": "metric",
+      "description": "Total capital called or drawn down to date in dollars",
+      "expected_format": "currency",
+      "table_hint": null
+    },
+    {
+      "name": "cumulative_distributions",
+      "display_name": "Cumulative Distributions",
+      "field_type": "metric",
+      "description": "Total distributions returned to LPs to date in dollars",
+      "expected_format": "currency",
+      "table_hint": null
+    },
+    {
+      "name": "net_asset_value",
+      "display_name": "Net Asset Value (NAV)",
+      "field_type": "metric",
+      "description": "Current net asset value of the fund in dollars",
+      "expected_format": "currency",
+      "table_hint": null
+    },
+    {
+      "name": "tvpi",
+      "display_name": "TVPI",
+      "field_type": "metric",
+      "description": "Total Value to Paid-In multiple (e.g., 1.27x)",
+      "expected_format": null,
+      "table_hint": null
+    },
+    {
+      "name": "dpi",
+      "display_name": "DPI",
+      "field_type": "metric",
+      "description": "Distributions to Paid-In multiple (e.g., 0.40x)",
+      "expected_format": null,
+      "table_hint": null
+    },
+    {
+      "name": "rvpi",
+      "display_name": "RVPI",
+      "field_type": "metric",
+      "description": "Residual Value to Paid-In multiple (e.g., 0.87x)",
+      "expected_format": null,
+      "table_hint": null
+    }
+  ],
+  "entity_groups": [
+    {
+      "name": "portfolio_investments",
+      "display_name": "Portfolio Investments",
+      "description": "Extract ALL portfolio company investments from the Schedule of Investments table. Each row represents one portfolio company investment.",
+      "fields": [
+        {
+          "name": "company_name",
+          "display_name": "Company Name",
+          "description": "Name of the portfolio company (e.g., TechFlow Solutions Inc.)",
+          "expected_format": null
+        },
+        {
+          "name": "industry",
+          "display_name": "Industry",
+          "description": "Industry or sector of the portfolio company (e.g., Enterprise Software, Healthcare IT)",
+          "expected_format": null
+        },
+        {
+          "name": "investment_date",
+          "display_name": "Investment Date",
+          "description": "Date of initial investment (e.g., Mar 2021)",
+          "expected_format": null
+        },
+        {
+          "name": "cost_basis",
+          "display_name": "Cost Basis",
+          "description": "Original cost basis of the investment in dollars (e.g., $42,000,000)",
+          "expected_format": "currency"
+        },
+        {
+          "name": "fair_value",
+          "display_name": "Fair Value",
+          "description": "Current fair value of the investment in dollars (e.g., $68,500,000)",
+          "expected_format": "currency"
+        }
+      ]
+    }
+  ],
+  "created_at": "2026-01-27T19:54:35.570959Z",
+  "updated_at": "2026-01-28T18:09:20.973056Z"
+}

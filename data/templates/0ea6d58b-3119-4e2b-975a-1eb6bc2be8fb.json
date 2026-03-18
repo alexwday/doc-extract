@@ -1,0 +1,17 @@
+{
+  "id": "0ea6d58b-3119-4e2b-975a-1eb6bc2be8fb",
+  "name": "Example",
+  "description": "Example",
+  "fields": [
+    {
+      "name": "title",
+      "display_name": "Title",
+      "field_type": "metric",
+      "description": "The document title in full.",
+      "expected_format": null,
+      "table_hint": null
+    }
+  ],
+  "created_at": "2026-01-28T18:08:44.417912Z",
+  "updated_at": "2026-01-28T18:08:44.417912Z"
+}

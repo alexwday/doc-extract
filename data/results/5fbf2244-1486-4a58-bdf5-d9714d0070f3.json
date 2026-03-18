@@ -1,0 +1,310 @@
+{
+  "id": "5fbf2244-1486-4a58-bdf5-d9714d0070f3",
+  "document_id": "169b7d7d-9090-426d-a4cc-e989f0768179",
+  "document_name": "ACP-VII_Q3_2024_Statement.pdf",
+  "template_id": "502a2000-ec13-4b0f-b859-e05f1c9d6e1a",
+  "template_name": "PE Fund Quarterly Statement",
+  "extracted_at": "2026-01-28T17:50:07.839155Z",
+  "processing_time_seconds": 30.101654,
+  "verified": true,
+  "extractions": {
+    "fund_name": {
+      "field_name": "fund_name",
+      "display_name": "Fund Name",
+      "field_type": "metric",
+      "value": "Atlantic Capital Partners VII, L.P.",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Appears at the top of page 1 as the full legal name.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "fund_id": {
+      "field_name": "fund_id",
+      "display_name": "Fund ID",
+      "field_type": "metric",
+      "value": "ACP-VII",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Fund Summary on page 1.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "reporting_period": {
+      "field_name": "reporting_period",
+      "display_name": "Reporting Period",
+      "field_type": "metric",
+      "value": "Q3 2024",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Appears in the report title and in the heading.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "period_end_date": {
+      "field_name": "period_end_date",
+      "display_name": "Period End Date",
+      "field_type": "metric",
+      "value": "September 30, 2024",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Explicitly stated under the report title.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "total_commitments": {
+      "field_name": "total_commitments",
+      "display_name": "Total Commitments",
+      "field_type": "metric",
+      "value": "$1,200,000,000",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Fund Summary.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "capital_called": {
+      "field_name": "capital_called",
+      "display_name": "Capital Called",
+      "field_type": "metric",
+      "value": "$890,000,000",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Fund Summary as 'Capital Called to Date'.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "cumulative_distributions": {
+      "field_name": "cumulative_distributions",
+      "display_name": "Cumulative Distributions",
+      "field_type": "metric",
+      "value": "$412,000,000",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Fund Summary as 'Cumulative Distributions'.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "net_asset_value": {
+      "field_name": "net_asset_value",
+      "display_name": "Net Asset Value (NAV)",
+      "field_type": "metric",
+      "value": "$823,000,000",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Fund Summary as 'Net Asset Value' and matches the total in the investment schedule.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "tvpi": {
+      "field_name": "tvpi",
+      "display_name": "TVPI",
+      "field_type": "metric",
+      "value": "1.39x",
+      "page": 2,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Performance Metrics.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "dpi": {
+      "field_name": "dpi",
+      "display_name": "DPI",
+      "field_type": "metric",
+      "value": "0.46x",
+      "page": 2,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Performance Metrics.",
+      "bounding_box": null,
+      "source_pages": null
+    },
+    "rvpi": {
+      "field_name": "rvpi",
+      "display_name": "RVPI",
+      "field_type": "metric",
+      "value": "0.92x",
+      "page": 2,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Listed under Performance Metrics.",
+      "bounding_box": null,
+      "source_pages": null
+    }
+  },
+  "all_candidates": {},
+  "entity_groups": {
+    "portfolio_investments": {
+      "name": "portfolio_investments",
+      "display_name": "Portfolio Investments",
+      "entities": [
+        {
+          "values": {
+            "company_name": "Nexus Semiconductor Corp",
+            "industry": "Semiconductors",
+            "investment_date": "Jan 2020",
+            "cost_basis": "$78,000,000",
+            "fair_value": "$142,000,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "UrbanSpace Real Estate Tech",
+            "industry": "PropTech",
+            "investment_date": "Apr 2020",
+            "cost_basis": "$45,000,000",
+            "fair_value": "$67,500,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "Precision Instruments Ltd",
+            "industry": "Medical Devices",
+            "investment_date": "Jul 2020",
+            "cost_basis": "$52,000,000",
+            "fair_value": "$71,000,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "CyberGuard Networks",
+            "industry": "Cybersecurity",
+            "investment_date": "Oct 2020",
+            "cost_basis": "$41,000,000",
+            "fair_value": "$58,200,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "AutoDrive Systems",
+            "industry": "Automotive Tech",
+            "investment_date": "Jan 2021",
+            "cost_basis": "$95,000,000",
+            "fair_value": "$68,000,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "PaymentHub International",
+            "industry": "Fintech",
+            "investment_date": "Apr 2021",
+            "cost_basis": "$63,000,000",
+            "fair_value": "$94,500,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "AgriTech Innovations",
+            "industry": "Agriculture Tech",
+            "investment_date": "Jul 2021",
+            "cost_basis": "$38,000,000",
+            "fair_value": "$45,600,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "StreamMedia Entertainment",
+            "industry": "Digital Media",
+            "investment_date": "Oct 2021",
+            "cost_basis": "$55,000,000",
+            "fair_value": "$42,000,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "NanoMaterials Inc",
+            "industry": "Advanced Materials",
+            "investment_date": "Jan 2022",
+            "cost_basis": "$47,000,000",
+            "fair_value": "$52,800,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "HealthFirst Clinics",
+            "industry": "Healthcare Services",
+            "investment_date": "Apr 2022",
+            "cost_basis": "$72,000,000",
+            "fair_value": "$89,000,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "EdgeAl Computing",
+            "industry": "Artificial Intelligence",
+            "investment_date": "Jul 2022",
+            "cost_basis": "$58,000,000",
+            "fair_value": "$78,400,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        },
+        {
+          "values": {
+            "company_name": "SecureVault Storage",
+            "industry": "Data Infrastructure",
+            "investment_date": "Oct 2022",
+            "cost_basis": "$34,000,000",
+            "fair_value": "$14,000,000"
+          },
+          "page": 1,
+          "confidence": 0.99,
+          "bounding_boxes": null,
+          "row_bounding_box": null
+        }
+      ]
+    }
+  },
+  "full_ocr_markdown": "# Page 1\n\n\u7f8e\n\nAtlantic Capital Partners VII, L.P.\n\nQuarterly Report - Q3 2024\n\nFor the Period Ending September 30, 2024\n\nFund Summary\n\nFund ID:\n\nACP-VII\n\nTotal Commitments:\n\n$1,200,000,000\n\nCapital Called to Date:\n\n$890,000,000\n\nCumulative Distributions:\n\n$412,000,000\n\nNet Asset Value:\n\n$823,000,000\n\nSchedule of Investments\n\nAs of September 30, 2024, the Fund held investments in 12 portfolio companies:\n\nPortfolio Company\n\nIndustry\n\nInvestment Date\n\nCost Basis\n\nFair Value\n\nNexus Semiconductor Corp\n\nSemiconductors\n\nJan 2020\n\n$78,000,000\n\n$142,000,000\n\nUrbanSpace Real Estate Tech\n\nPropTech\n\nApr 2020\n\n$45,000,000\n\n$67,500,000\n\nPrecision Instruments Ltd\n\nMedical Devices\n\nJul 2020\n\n$52,000,000\n\n$71,000,000\n\nCyberGuard Networks\n\nCybersecurity\n\nOct 2020\n\n$41,000,000\n\n$58,200,000\n\nAutoDrive Systems\n\nAutomotive Tech\n\nJan 2021\n\n$95,000,000\n\n$68,000,000\n\nPaymentHub International\n\nFintech\n\nApr 2021\n\n$63,000,000\n\n$94,500,000\n\nAgriTech Innovations\n\nAgriculture Tech\n\nJul 2021\n\n$38,000,000\n\n$45,600,000\n\nStreamMedia Entertainment\n\nDigital Media\n\nOct 2021\n\n$55,000,000\n\n$42,000,000\n\nNanoMaterials Inc\n\nAdvanced Materials\n\nJan 2022\n\n$47,000,000\n\n$52,800,000\n\nHealthFirst Clinics\n\nHealthcare Services\n\nApr 2022\n\n$72,000,000\n\n$89,000,000\n\nEdgeAl Computing\n\nArtificial Intelligence\n\nJul 2022\n\n$58,000,000\n\n$78,400,000\n\nSecureVault Storage\n\nData Infrastructure\n\nOct 2022\n\n$34,000,000\n\n$14,000,000\n\nTOTAL\n\n$678,000,000\n\n$823,000,000\n\n---\n\n# Page 2\n\n\u7f8e\n\nPerformance Metrics\n\nTVPI (Total Value to Paid-In):\n\n1.39x\n\nDPI (Distributions to Paid-In):\n\n0.46x\n\nRVPI (Residual Value to Paid-In):\n\n0.92x\n\nCONFIDENTIAL - FOR LIMITED PARTNER USE ONLY\n\nThis quarterly report is provided for informational purposes only. Fair values are estimated based on the General Partner's assessment and may differ\n\nfrom values ultimately realized. Past performance is not indicative of future results. This document contains forward-looking statements that involve\n\nrisks and uncertainties."
+}

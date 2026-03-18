@@ -1,0 +1,351 @@
+{
+  "id": "fcb26054-7504-457a-9a8e-3afffa92526d",
+  "document_id": "575b0391-b1bc-42c0-9ebe-0e3b938cb396",
+  "document_name": "MBF-III_Q3_2024_Statement.pdf",
+  "template_id": "502a2000-ec13-4b0f-b859-e05f1c9d6e1a",
+  "template_name": "PE Fund Quarterly Statement",
+  "extracted_at": "2026-01-27T19:59:37.328974Z",
+  "processing_time_seconds": 119.700005,
+  "verified": true,
+  "extractions": {
+    "fund_name": {
+      "field_name": "fund_name",
+      "display_name": "Fund Name",
+      "field_type": "metric",
+      "value": "Meridian Buyout Fund III, L.P.",
+      "page": 1,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 312,
+        "y1": 55,
+        "x2": 685,
+        "y2": 75
+      },
+      "source_pages": null
+    },
+    "fund_id": {
+      "field_name": "fund_id",
+      "display_name": "Fund ID",
+      "field_type": "metric",
+      "value": "MBF-III",
+      "page": 1,
+      "confidence": 0.97,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 765,
+        "y1": 255,
+        "x2": 825,
+        "y2": 272
+      },
+      "source_pages": null
+    },
+    "reporting_period": {
+      "field_name": "reporting_period",
+      "display_name": "Reporting Period",
+      "field_type": "metric",
+      "value": "Q3 2024",
+      "page": 1,
+      "confidence": 0.99,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 400,
+        "y1": 92,
+        "x2": 615,
+        "y2": 105
+      },
+      "source_pages": null
+    },
+    "period_end_date": {
+      "field_name": "period_end_date",
+      "display_name": "Period End Date",
+      "field_type": "metric",
+      "value": "September 30, 2024",
+      "page": 1,
+      "confidence": 0.99,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 325,
+        "y1": 128,
+        "x2": 685,
+        "y2": 143
+      },
+      "source_pages": null
+    },
+    "total_commitments": {
+      "field_name": "total_commitments",
+      "display_name": "Total Commitments",
+      "field_type": "metric",
+      "value": "$650,000,000",
+      "page": 1,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 715,
+        "y1": 285,
+        "x2": 825,
+        "y2": 300
+      },
+      "source_pages": null
+    },
+    "capital_called": {
+      "field_name": "capital_called",
+      "display_name": "Capital Called",
+      "field_type": "metric",
+      "value": "$498,000,000",
+      "page": 1,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 715,
+        "y1": 310,
+        "x2": 825,
+        "y2": 325
+      },
+      "source_pages": null
+    },
+    "cumulative_distributions": {
+      "field_name": "cumulative_distributions",
+      "display_name": "Cumulative Distributions",
+      "field_type": "metric",
+      "value": "$185,000,000",
+      "page": 1,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 715,
+        "y1": 335,
+        "x2": 825,
+        "y2": 350
+      },
+      "source_pages": null
+    },
+    "net_asset_value": {
+      "field_name": "net_asset_value",
+      "display_name": "Net Asset Value (NAV)",
+      "field_type": "metric",
+      "value": "$412,000,000",
+      "page": 1,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 715,
+        "y1": 360,
+        "x2": 825,
+        "y2": 375
+      },
+      "source_pages": null
+    },
+    "tvpi": {
+      "field_name": "tvpi",
+      "display_name": "TVPI",
+      "field_type": "metric",
+      "value": "1.20x",
+      "page": 2,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 715,
+        "y1": 56,
+        "x2": 755,
+        "y2": 72
+      },
+      "source_pages": null
+    },
+    "dpi": {
+      "field_name": "dpi",
+      "display_name": "DPI",
+      "field_type": "metric",
+      "value": "0.37x",
+      "page": 2,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "",
+      "bounding_box": {
+        "x1": 715,
+        "y1": 85,
+        "x2": 755,
+        "y2": 100
+      },
+      "source_pages": null
+    },
+    "portfolio_investments": {
+      "field_name": "portfolio_investments",
+      "display_name": "Portfolio Investments Summary",
+      "field_type": "summary",
+      "value": "Industrial Coatings Co | Specialty Chemicals | Feb 2021 | $48,000,000 | $62,400,000; PackagePro Logistics | Supply Chain | May 2021 | $35,000,000 | $43,750,000; Dental Excellence Group | Healthcare | Aug 2021 | $42,000,000 | $58,800,000; TruckFleet Services | Transportation | Nov 2021 | $29,000,000 | $31,900,000; BuildRight Construction | Construction | Feb 2022 | $55,000,000 | $49,500,000; FoodService Distributors | Food & Beverage | May 2022 | $38,000,000 | $45,600,000; MetalWorks Fabrication | Manufacturing | Aug 2022 | $44,000,000 | $48,400,000; CleanSpace Facilities | Facility Services | Nov 2022 | $31,000,000 | $35,650,000; SafetyFirst Equipment | Industrial Equipment | Feb 2023 | $52,000,000 | $36,400,000",
+      "page": 1,
+      "confidence": 1.0,
+      "verified": true,
+      "verification_notes": "Synthesized from pages: [1]",
+      "bounding_box": null,
+      "source_pages": [
+        1
+      ]
+    }
+  },
+  "all_candidates": {
+    "fund_name": [
+      {
+        "value": "Meridian Buyout Fund III, L.P.",
+        "page": 1,
+        "confidence": 0.98,
+        "bounding_box": {
+          "x1": 312,
+          "y1": 55,
+          "x2": 685,
+          "y2": 75
+        }
+      }
+    ],
+    "fund_id": [
+      {
+        "value": "MBF-III",
+        "page": 1,
+        "confidence": 0.97,
+        "bounding_box": {
+          "x1": 765,
+          "y1": 255,
+          "x2": 825,
+          "y2": 272
+        }
+      }
+    ],
+    "reporting_period": [
+      {
+        "value": "Q3 2024",
+        "page": 1,
+        "confidence": 0.99,
+        "bounding_box": {
+          "x1": 400,
+          "y1": 92,
+          "x2": 615,
+          "y2": 105
+        }
+      }
+    ],
+    "period_end_date": [
+      {
+        "value": "September 30, 2024",
+        "page": 1,
+        "confidence": 0.99,
+        "bounding_box": {
+          "x1": 325,
+          "y1": 128,
+          "x2": 685,
+          "y2": 143
+        }
+      }
+    ],
+    "total_commitments": [
+      {
+        "value": "$650,000,000",
+        "page": 1,
+        "confidence": 0.98,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 285,
+          "x2": 825,
+          "y2": 300
+        }
+      }
+    ],
+    "capital_called": [
+      {
+        "value": "$498,000,000",
+        "page": 1,
+        "confidence": 0.98,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 310,
+          "x2": 825,
+          "y2": 325
+        }
+      }
+    ],
+    "cumulative_distributions": [
+      {
+        "value": "$185,000,000",
+        "page": 1,
+        "confidence": 0.98,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 335,
+          "x2": 825,
+          "y2": 350
+        }
+      }
+    ],
+    "net_asset_value": [
+      {
+        "value": "$412,000,000",
+        "page": 1,
+        "confidence": 0.98,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 360,
+          "x2": 825,
+          "y2": 375
+        }
+      }
+    ],
+    "tvpi": [
+      {
+        "value": "N/A",
+        "page": 1,
+        "confidence": 0.1,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 360,
+          "x2": 825,
+          "y2": 375
+        }
+      },
+      {
+        "value": "1.20x",
+        "page": 2,
+        "confidence": 0.98,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 56,
+          "x2": 755,
+          "y2": 72
+        }
+      }
+    ],
+    "dpi": [
+      {
+        "value": "N/A",
+        "page": 1,
+        "confidence": 0.1,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 360,
+          "x2": 825,
+          "y2": 375
+        }
+      },
+      {
+        "value": "0.37x",
+        "page": 2,
+        "confidence": 0.98,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 85,
+          "x2": 755,
+          "y2": 100
+        }
+      }
+    ]
+  },
+  "full_ocr_markdown": "# Page 1\n\n# Meridian Buyout Fund III, L.P.\n## Quarterly Report - Q3 2024\n### For the Period Ending September 30, 2024\n\n## Fund Summary\n\n**Fund ID:** MBF-III\n\n**Total Commitments:** $650,000,000\n\n**Capital Called to Date:** $498,000,000\n\n**Cumulative Distributions:** $185,000,000\n\n**Net Asset Value:** $412,000,000\n\n## Schedule of Investments\n\nAs of September 30, 2024, the Fund held investments in 9 portfolio companies:\n\n| Portfolio Company | Industry | Investment Date | Cost Basis | Fair Value |\n|---|---|---|---|---|\n| Industrial Coatings Co | Specialty Chemicals | Feb 2021 | $48,000,000 | $62,400,000 |\n| PackagePro Logistics | Supply Chain | May 2021 | $35,000,000 | $43,750,000 |\n| Dental Excellence Group | Healthcare | Aug 2021 | $42,000,000 | $58,800,000 |\n| TruckFleet Services | Transportation | Nov 2021 | $29,000,000 | $31,900,000 |\n| BuildRight Construction | Construction | Feb 2022 | $55,000,000 | $49,500,000 |\n| FoodService Distributors | Food & Beverage | May 2022 | $38,000,000 | $45,600,000 |\n| MetalWorks Fabrication | Manufacturing | Aug 2022 | $44,000,000 | $48,400,000 |\n| CleanSpace Facilities | Facility Services | Nov 2022 | $31,000,000 | $35,650,000 |\n| SafetyFirst Equipment | Industrial Equipment | Feb 2023 | $52,000,000 | $36,400,000 |\n| **TOTAL** | | | **$374,000,000** | **$412,400,000** |\n\n## Performance Metrics\n\n---\n\n# Page 2\n\nTVPI (Total Value to Paid-In): 1.20x\nDPI (Distributions to Paid-In): 0.37x\nRVPI (Residual Value to Paid-In): 0.83x\n\nCONFIDENTIAL - FOR LIMITED PARTNER USE ONLY\n\nThis quarterly report is provided for informational purposes only. Fair values are estimated based on the General Partner's assessment and may differ from values ultimately realized. Past performance is not indicative of future results. This document contains forward-looking statements that involve risks and uncertainties."
+}

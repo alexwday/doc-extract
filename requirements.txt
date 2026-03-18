@@ -1,0 +1,20 @@
+# Document Extraction Platform - Requirements
+
+# MLX for Apple Silicon
+mlx>=0.22.0
+mlx-vlm>=0.1.0
+
+# PDF processing
+pymupdf>=1.24.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Utilities
+tqdm
+
+# For verification (Phase 2)
+openai>=1.0.0

@@ -1,0 +1,324 @@
+{
+  "id": "40b17ac0-f7d6-4580-b799-264f1f441e25",
+  "document_id": "9d484341-b907-4ebc-be6f-76aeac1d63ab",
+  "document_name": "HGP-IV_Q3_2024_Statement.pdf",
+  "template_id": "502a2000-ec13-4b0f-b859-e05f1c9d6e1a",
+  "template_name": "PE Fund Quarterly Statement",
+  "extracted_at": "2026-01-27T21:20:19.689972Z",
+  "processing_time_seconds": 180.569947,
+  "verified": false,
+  "extractions": {
+    "tvpi": {
+      "field_name": "tvpi",
+      "display_name": "TVPI",
+      "field_type": "metric",
+      "value": "1.27x",
+      "page": 2,
+      "confidence": 0.95,
+      "verified": false,
+      "bounding_box": {
+        "x1": 715,
+        "y1": 150,
+        "x2": 755,
+        "y2": 164
+      }
+    },
+    "dpi": {
+      "field_name": "dpi",
+      "display_name": "DPI",
+      "field_type": "metric",
+      "value": "0.40x",
+      "page": 2,
+      "confidence": 0.95,
+      "verified": false,
+      "bounding_box": {
+        "x1": 715,
+        "y1": 176,
+        "x2": 755,
+        "y2": 190
+      }
+    },
+    "rvpi": {
+      "field_name": "rvpi",
+      "display_name": "RVPI",
+      "field_type": "metric",
+      "value": "0.87x",
+      "page": 2,
+      "confidence": 0.95,
+      "verified": false,
+      "bounding_box": {
+        "x1": 715,
+        "y1": 202,
+        "x2": 755,
+        "y2": 216
+      }
+    },
+    "fund_name": {
+      "field_name": "fund_name",
+      "display_name": "Fund Name",
+      "field_type": "metric",
+      "value": "Fund Name",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    },
+    "fund_id": {
+      "field_name": "fund_id",
+      "display_name": "Fund ID",
+      "field_type": "metric",
+      "value": "Fund ID",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    },
+    "reporting_period": {
+      "field_name": "reporting_period",
+      "display_name": "Reporting Period",
+      "field_type": "metric",
+      "value": "Reporting Period",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    },
+    "period_end_date": {
+      "field_name": "period_end_date",
+      "display_name": "Period End Date",
+      "field_type": "metric",
+      "value": "Period End Date",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    },
+    "total_commitments": {
+      "field_name": "total_commitments",
+      "display_name": "Total Commitments",
+      "field_type": "metric",
+      "value": "Total Commitments",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    },
+    "capital_called": {
+      "field_name": "capital_called",
+      "display_name": "Capital Called",
+      "field_type": "metric",
+      "value": "Capital Called",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    },
+    "cumulative_distributions": {
+      "field_name": "cumulative_distributions",
+      "display_name": "Cumulative Distributions",
+      "field_type": "metric",
+      "value": "Cumulative Distributions",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    },
+    "net_asset_value": {
+      "field_name": "net_asset_value",
+      "display_name": "Net Asset Value (NAV)",
+      "field_type": "metric",
+      "value": "Net Asset Value",
+      "page": 2,
+      "confidence": 0.0,
+      "verified": false,
+      "bounding_box": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0
+      }
+    }
+  },
+  "all_candidates": {
+    "tvpi": [
+      {
+        "value": "1.27x",
+        "page": 2,
+        "confidence": 0.95,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 150,
+          "x2": 755,
+          "y2": 164
+        }
+      }
+    ],
+    "dpi": [
+      {
+        "value": "0.40x",
+        "page": 2,
+        "confidence": 0.95,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 176,
+          "x2": 755,
+          "y2": 190
+        }
+      }
+    ],
+    "rvpi": [
+      {
+        "value": "0.87x",
+        "page": 2,
+        "confidence": 0.95,
+        "bounding_box": {
+          "x1": 715,
+          "y1": 202,
+          "x2": 755,
+          "y2": 216
+        }
+      }
+    ],
+    "fund_name": [
+      {
+        "value": "Fund Name",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ],
+    "fund_id": [
+      {
+        "value": "Fund ID",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ],
+    "reporting_period": [
+      {
+        "value": "Reporting Period",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ],
+    "period_end_date": [
+      {
+        "value": "Period End Date",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ],
+    "total_commitments": [
+      {
+        "value": "Total Commitments",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ],
+    "capital_called": [
+      {
+        "value": "Capital Called",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ],
+    "cumulative_distributions": [
+      {
+        "value": "Cumulative Distributions",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ],
+    "net_asset_value": [
+      {
+        "value": "Net Asset Value",
+        "page": 2,
+        "confidence": 0.0,
+        "bounding_box": {
+          "x1": 0,
+          "y1": 0,
+          "x2": 0,
+          "y2": 0
+        }
+      }
+    ]
+  },
+  "entity_groups": {},
+  "full_ocr_markdown": "# Page 1\n\n# Horizon Growth Partners Fund IV, L.P.\n## Quarterly Report - Q3 2024\n### For the Period Ending September 30, 2024\n\n## Fund Summary\n\n**Fund ID:** HGP-IV\n\n**Total Commitments:** $850,000,000\n\n**Capital Called to Date:** $612,000,000\n\n**Cumulative Distributions:** $245,000,000\n\n**Net Asset Value:** $534,000,000\n\n## Schedule of Investments\n\nAs of September 30, 2024, the Fund held investments in 11 portfolio companies:\n\n| Portfolio Company | Industry | Investment Date | Cost Basis | Fair Value |\n|---|---|---|---|---|\n| TechFlow Solutions Inc. | Enterprise Software | Mar 2021 | $42,000,000 | $68,500,000 |\n| MedPro Healthcare Systems | Healthcare IT | Jun 2021 | $35,000,000 | $52,300,000 |\n| GreenLogix Transport | Logistics | Sep 2021 | $28,000,000 | $31,200,000 |\n| CloudSecure Platforms | Cybersecurity | Dec 2021 | $55,000,000 | $89,000,000 |\n| Apex Manufacturing Corp | Industrial | Mar 2022 | $38,000,000 | $42,500,000 |\n| DataStream Analytics | Data Services | Jun 2022 | $45,000,000 | $61,000,000 |\n| BioGenesis Therapeutics | Biotechnology | Sep 2022 | $62,000,000 | $48,000,000 |\n| FinServ Digital Holdings | Financial Services | Dec 2022 | $33,000,000 | $39,800,000 |\n| EcoEnergy Solutions | Clean Energy | Mar 2023 | $47,000,000 | $55,200,000 |\n| Retail Dynamics Group | Consumer Retail | Jun 2023 | $29,000,000 | $24,500,000 |\n| Quantum Computing Labs | Deep Tech | Sep 2023 | $51,000,000 | $22,000,000 |\n| **TOTAL** | | | **$465,000,000** | **$534,000,000** |\n\n---\n\n# Page 2\n\n# Performance Metrics\n\nTVPI (Total Value to Paid-In): 1.27x\nDPI (Distributions to Paid-In): 0.40x\nRVPI (Residual Value to Paid-In): 0.87x\n\n**CONFIDENTIAL - FOR LIMITED PARTNER USE ONLY**\n\nThis quarterly report is provided for informational purposes only. Fair values are estimated based on the General Partner's assessment and may differ from values ultimately realized. Past performance is not indicative of future results. This document contains forward-looking statements that involve risks and uncertainties."
+}

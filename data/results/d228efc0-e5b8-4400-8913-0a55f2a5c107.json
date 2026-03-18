@@ -1,0 +1,27 @@
+{
+  "id": "d228efc0-e5b8-4400-8913-0a55f2a5c107",
+  "document_id": "575b0391-b1bc-42c0-9ebe-0e3b938cb396",
+  "document_name": "MBF-III_Q3_2024_Statement.pdf",
+  "template_id": "c45d4c05-27c1-4747-9eec-979240645d94",
+  "template_name": "Example",
+  "extracted_at": "2026-01-28T18:07:15.544147Z",
+  "processing_time_seconds": 14.762572,
+  "verified": true,
+  "extractions": {
+    "document_title": {
+      "field_name": "document_title",
+      "display_name": "Document TItle",
+      "field_type": "metric",
+      "value": "Meridian Buyout Fund III, L.P.\n\nQuarterly Report - Q3 2024",
+      "page": 1,
+      "confidence": 0.98,
+      "verified": true,
+      "verification_notes": "Title appears at the top of page 1, combining the fund name and report type/period as formatted.",
+      "bounding_box": null,
+      "source_pages": null
+    }
+  },
+  "all_candidates": {},
+  "entity_groups": {},
+  "full_ocr_markdown": "# Page 1\n\n\u7f8e\n\n**Meridian Buyout Fund III, L.P.**\n\nQuarterly Report - Q3 2024\n\nFor the Period Ending September 30, 2024\n\n**Fund Summary**\n\n**Fund ID:** MBF-III\n\n**Total Commitments:** $650,000,000\n\n**Capital Called to Date:** $498,000,000\n\n**Cumulative Distributions:** $185,000,000\n\n**Net Asset Value:** $412,000,000\n\n**Schedule of Investments**\n\nAs of September 30, 2024, the Fund held investments in 9 portfolio companies:\n\n|Portfolio Company|Industry|Investment Date|Cost Basis|Fair Value|\n|---|---|---|---|---|\n|Industrial Coatings Co|Specialty Chemicals|Feb 2021|$48,000,000|$62,400,000|\n|PackagePro Logistics|Supply Chain|May 2021|$35,000,000|$43,750,000|\n|Dental Excellence Group|Healthcare|Aug 2021|$42,000,000|$58,800,000|\n|TruckFleet Services|Transportation|Nov 2021|$29,000,000|$31,900,000|\n|BuildRight Construction|Construction|Feb 2022|$55,000,000|$49,500,000|\n|FoodService Distributors|Food & Beverage|May 2022|$38,000,000|$45,600,000|\n|MetalWorks Fabrication|Manufacturing|Aug 2022|$44,000,000|$48,400,000|\n|CleanSpace Facilities|Facility Services|Nov 2022|$31,000,000|$35,650,000|\n|SafetyFirst Equipment|Industrial Equipment|Feb 2023|$52,000,000|$36,400,000|\n|TOTAL|||$374,000,000|$412,400,000|\n\n**Performance Metrics**\n\n---\n\n# Page 2\n\n\u7f8e\n\nTVPI (Total Value to Paid-In): 1.20x\n\nDPI (Distributions to Paid-In): 0.37x\n\nRVPI (Residual Value to Paid-In): 0.83x\n\nCONFIDENTIAL - FOR LIMITED PARTNER USE ONLY\n\nThis quarterly report is provided for informational purposes only. Fair values are estimated based on the General Partner's assessment and may differ from values ultimately realized. Past performance is not indicative of future results. This document contains forward-looking statements that involve risks and uncertainties."
+}
